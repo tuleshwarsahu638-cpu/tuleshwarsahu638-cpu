@@ -1,37 +1,104 @@
-## Hi there 👋👋 नमस्कार, मैं तुलेश्वर साहू हूँ।
-🦄 मेरे बारे में
-नमस्ते 👋 मैं एक *छात्र* हूँ
+# Tuleshwar Sahu
 
-💻 भारत से एक उत्साही प्रोग्रामर
+### 💻 Computer & Technology Enthusiast | Developer
 
-🔭 मैं फिलहाल c पर काम कर रहा हूँ
-🌱 मैं फिलहाल पायथन सीख रहा हूँ
-📂 मेरी परियोजनाएँ
-मेरे सभी प्रोजेक्ट यहां उपलब्ध हैं:
+Welcome to my GitHub profile.
 
-https://github.com/tuleshwarsahu638-cpu
+I am Tuleshwar Sahu from Bilaspur, Chhattisgarh, India.
+I am interested in technology, software development, computer applications,
+AI-based projects, and practical digital solutions.
 
-📫 मुझसे संपर्क करें
-ईमेल: tuleshwarsahu638@gmail.com
+---
 
-🛠 कौशल
-सी
-सी++
-✨ धन्यवाद
+## 👨‍💻 About Me
 
-🙏🙏
+- 💻 Interested in computers, software and technology
+- 🐍 Basic knowledge of Python
+- ⚙️ Basic knowledge of C and C++
+- 🌐 Basic knowledge of HTML
+- 📱 Familiar with Termux
+- 🧮 Working on calculator and utility projects
+- 🖥️ Familiar with Microsoft applications
+- 🎨 Familiar with photo editing
+- 📊 Currently learning Tally ERP 9
+- 📢 Knowledge of online and offline marketing
+- 📚 DCA
 
-<!--
-**tuleshwarsahu638-cpu/tuleshwarsahu638-cpu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+## 🛠️ Skills
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 💻 Programming & Web — Basic
+
+- C — Basic
+- C++ — Basic
+- Python — Basic
+- HTML — Basic
+
+### 🖥️ Microsoft & Computer Applications
+
+- Microsoft Word
+- Microsoft Excel
+- Microsoft PowerPoint
+- Microsoft Access
+- Microsoft Outlook
+- Other common Microsoft applications
+
+### 📱 Technology
+
+- Termux
+- Basic Android & Web Technology
+- Basic Software Development
+
+### 🎨 Creative Skills
+
+- Photo Editing
+
+---
+
+## 📚 Currently Learning
+
+- Tally ERP 9
+
+---
+
+## 🎓 Education
+
+- 10th
+- 12th
+- DCA
+
+---
+
+## 🚀 Projects
+
+### 🧮 TCalc AI / Calculator
+
+A practical calculator project focused on useful
+calculation tools and modern features.
+
+More project details will be added soon.
+
+---
+
+## 📍 Location
+
+Bilaspur, Chhattisgarh, India
+
+---
+
+## 📫 Contact
+
+📧 **Email:** tuleshwarsahu638@gmail.com
+
+---
+
+## 🔗 GitHub
+
+[![GitHub](https://img.shields.io/badge/GitHub-Tuleshwar%20Sahu-black?style=for-the-badge&logo=github)](https://github.com/tuleshwarsahu638-cpu)
+
+---
+
+### 🌱 Learning • Building • Improving
+
+### Byy 😊
