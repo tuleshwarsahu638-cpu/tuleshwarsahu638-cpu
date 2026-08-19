@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- Mobile + Desktop Responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Search Engine Information -->
+  <meta name="description"
+        content="Tuleshwar Sahu — Computer and Technology Enthusiast, Developer and Creator from Bilaspur, Chhattisgarh, India.">
+
+  <meta name="keywords"
+        content="Tuleshwar Sahu, GitHub, Developer, Python, C, C++, HTML, Termux, Tally ERP 9, Calculator">
+
+  <meta name="author" content="Tuleshwar Sahu">
+
+  <title>Tuleshwar Sahu | Portfolio</title>
+
+  <style>
+    /* ================================
+       BASIC RESET
+    ================================= */
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #090b10;
+      color: #f2f2f2;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ================================
+       NAVIGATION
+    ================================= */
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+
+      background: rgba(9, 11, 16, 0.94);
+      border-bottom: 1px solid #252a33;
+
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-container {
+      max-width: 1100px;
+      margin: auto;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      padding: 16px 20px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    .logo span {
+      color: #d6ad55;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 22px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: #c9c9c9;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #d6ad55;
+    }
+
+    /* ================================
+       HERO
+    ================================= */
+
+    .hero {
+      min-height: 88vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+
+      padding: 70px 20px;
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .hello {
+      color: #aaaaaa;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 8vw, 78px);
+      line-height: 1.1;
+
+      margin-bottom: 18px;
+
+      cursor: pointer;
+
+      background: linear-gradient(
+        90deg,
+        #ffffff,
+        #d6ad55,
+        #ffffff
+      );
+
+      background-size: 200% auto;
+
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      animation: shine 5s linear infinite;
+    }
+
+    @keyframes shine {
+      to {
+        background-position: 200% center;
+      }
+    }
+
+    .hero h2 {
+      font-size: clamp(20px, 4vw, 30px);
+      font-weight: normal;
+      color: #cfcfcf;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+
+      color: #a9a9a9;
+      font-size: 16px;
+    }
+
+    .location {
+      margin-top: 15px;
+      color: #d6ad55;
+    }
+
+    /* ================================
+       BUTTONS
+    ================================= */
+
+    .buttons {
+      margin-top: 30px;
+
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 20px;
+
+      border: 1px solid #3b414c;
+      border-radius: 8px;
+
+      background: #151922;
+
+      color: #ffffff;
+
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      border-color: #d6ad55;
+      color: #d6ad55;
+      transform: translateY(-2px);
+    }
+
+    .btn-primary {
+      background: #d6ad55;
+      color: #101010;
+      border-color: #d6ad55;
+      font-weight: bold;
+    }
+
+    .btn-primary:hover {
+      color: #101010;
+      background: #e3c477;
+    }
+
+    /* ================================
+       GENERAL SECTIONS
+    ================================= */
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+
+      padding: 80px 20px;
+    }
+
+    .section-title {
+      font-size: 30px;
+      margin-bottom: 35px;
+
+      border-left: 4px solid #d6ad55;
+      padding-left: 14px;
+    }
+
+    /* ================================
+       ABOUT
+    ================================= */
+
+    .about-text {
+      max-width: 850px;
+      color: #bcbcbc;
+      font-size: 17px;
+    }
+
+    /* ================================
+       SKILLS
+    ================================= */
+
+    .skill-group {
+      margin-bottom: 30px;
+    }
+
+    .skill-group h3 {
+      margin-bottom: 15px;
+      color: #d6ad55;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill {
+      padding: 9px 14px;
+
+      border: 1px solid #303641;
+      border-radius: 7px;
+
+      background: #12151c;
+      color: #d5d5d5;
+
+      transition: 0.3s;
+    }
+
+    .skill:hover {
+      border-color: #d6ad55;
+      transform: translateY(-2px);
+    }
+
+    /* ================================
+       EDUCATION
+    ================================= */
+
+    .timeline {
+      border-left: 2px solid #303641;
+      padding-left: 25px;
+    }
+
+    .timeline-item {
+      margin-bottom: 28px;
+    }
+
+    .timeline-item h3 {
+      color: #ffffff;
+    }
+
+    .timeline-item p {
+      color: #a9a9a9;
+    }
+
+    /* ================================
+       PROJECT
+    ================================= */
+
+    .project-card {
+      background: #11141b;
+
+      border: 1px solid #2b3039;
+      border-radius: 12px;
+
+      padding: 25px;
+
+      transition: 0.3s;
+    }
+
+    .project-card:hover {
+      border-color: #d6ad55;
+      transform: translateY(-4px);
+    }
+
+    .project-card h3 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      color: #aaaaaa;
+    }
+
+    /* ================================
+       CONTACT
+    ================================= */
+
+    .contact-box {
+      background: #11141b;
+
+      border: 1px solid #2b3039;
+      border-radius: 12px;
+
+      padding: 30px;
+    }
+
+    .contact-box p {
+      margin-bottom: 10px;
+      color: #c1c1c1;
+    }
+
+    .contact-box strong {
+      color: #d6ad55;
+    }
+
+    /* ================================
+       FOOTER
+    ================================= */
+
+    footer {
+      text-align: center;
+
+      padding: 35px 20px;
+
+      border-top: 1px solid #252a33;
+
+      color: #888888;
+    }
+
+    footer strong {
+      color: #d6ad55;
+    }
+
+    /* ================================
+       GOLD PARTICLES
+    ================================= */
+
+    .particle {
+      position: fixed;
+
+      width: 4px;
+      height: 4px;
+
+      background: #d6ad55;
+
+      border-radius: 50%;
+
+      pointer-events: none;
+
+      z-index: 9999;
+
+      animation: fall 1.8s linear forwards;
+    }
+
+    @keyframes fall {
+      0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+
+      100% {
+        opacity: 0;
+        transform: translateY(180px) scale(0.2);
+      }
+    }
+
+    /* ================================
+       MOBILE
+    ================================= */
+
+    @media (max-width: 700px) {
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        min-height: 82vh;
+      }
+
+      section {
+        padding: 60px 18px;
+      }
+
+      .section-title {
+        font-size: 26px;
+      }
+
+      .hero p {
+        font-size: 15px;
+      }
+
+      .project-card {
+        padding: 20px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- ================================
+       NAVIGATION
+  ================================= -->
+
+  <nav>
+
+    <div class="nav-container">
+
+      <a href="#home" class="logo">
+        Tuleshwar <span>Sahu</span>
+      </a>
+
+      <ul class="nav-links">
+
+        <li>
+          <a href="#about">About</a>
+        </li>
+
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+
+        <li>
+          <a href="#education">Education</a>
+        </li>
+
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </nav>
+
+
+  <!-- ================================
+       HOME
+  ================================= -->
+
+  <main>
+
+    <section id="home" class="hero">
+
+      <div class="hero-content">
+
+        <div class="hello">
+          Hello, I'm
+        </div>
+
+        <!-- Clickable Name -->
+
+        <h1 id="name">
+          Tuleshwar Sahu
+        </h1>
+
+        <h2>
+          Computer & Technology Enthusiast
+        </h2>
+
+        <p>
+          Developer • Learner • Creator
+        </p>
+
+        <p class="location">
+          📍 Bilaspur, Chhattisgarh, India
+        </p>
+
+        <div class="buttons">
+
+          <a
+            class="btn btn-primary"
+            href="#about">
+            About Me
+          </a>
+
+          <a
+            class="btn"
+            href="#projects">
+            Projects
+          </a>
+
+          <a
+            class="btn"
+            href="https://github.com/tuleshwarsahu638-cpu"
+            target="_blank">
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================================
+         ABOUT
+    ================================= -->
+
+    <section id="about">
+
+      <h2 class="section-title">
+        About Me
+      </h2>
+
+      <p class="about-text">
+
+        I am Tuleshwar Sahu from Bilaspur, Chhattisgarh, India.
+        I am interested in computers, technology, software development,
+        practical digital solutions and learning new technologies.
+
+        I have basic knowledge of C, C++, Python and HTML.
+        I am familiar with Microsoft applications, Termux and photo editing.
+
+        I am currently learning Tally ERP 9 and continuously improving
+        my technical and digital skills.
+
+      </p>
+
+    </section>
+
+
+    <!-- ================================
+         SKILLS
+    ================================= -->
+
+    <section id="skills">
+
+      <h2 class="section-title">
+        Skills
+      </h2>
+
+
+      <div class="skill-group">
+
+        <h3>
+          Programming & Web — Basic
+        </h3>
+
+        <div class="skills">
+
+          <span class="skill">C — Basic</span>
+
+          <span class="skill">C++ — Basic</span>
+
+          <span class="skill">Python — Basic</span>
+
+          <span class="skill">HTML — Basic</span>
+
+        </div>
+
+      </div>
+
+
+      <div class="skill-group">
+
+        <h3>
+          Microsoft & Computer Applications
+        </h3>
+
+        <div class="skills">
+
+          <span class="skill">Microsoft Word</span>
+
+          <span class="skill">Microsoft Excel</span>
+
+          <span class="skill">Microsoft PowerPoint</span>
+
+          <span class="skill">Microsoft Access</span>
+
+          <span class="skill">Microsoft Outlook</span>
+
+          <span class="skill">
+            Microsoft Applications
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <div class="skill-group">
+
+        <h3>
+          Technology
+        </h3>
+
+        <div class="skills">
+
+          <span class="skill">Termux</span>
+
+          <span class="skill">
+            Basic Android Technology
+          </span>
+
+          <span class="skill">
+            Basic Web Technology
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <div class="skill-group">
+
+        <h3>
+          Other Skills
+        </h3>
+
+        <div class="skills">
+
+          <span class="skill">Photo Editing</span>
+
+          <span class="skill">DCA</span>
+
+          <span class="skill">
+            Online & Offline Marketing
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <div class="skill-group">
+
+        <h3>
+          Currently Learning
+        </h3>
+
+        <div class="skills">
+
+          <span class="skill">
+            Tally ERP 9
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================================
+         EDUCATION
+    ================================= -->
+
+    <section id="education">
+
+      <h2 class="section-title">
+        Education
+      </h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+
+          <h3>10th</h3>
+
+          <p>
+            School Education
+          </p>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <h3>12th</h3>
+
+          <p>
+            Higher Secondary Education
+          </p>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <h3>DCA</h3>
+
+          <p>
+            Diploma in Computer Applications
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================================
+         PROJECTS
+    ================================= -->
+
+    <section id="projects">
+
+      <h2 class="section-title">
+        Projects
+      </h2>
+
+      <div class="project-card">
+
+        <h3>
+          🧮 TCalc AI / Calculator
+        </h3>
+
+        <p>
+          A practical calculator project focused on useful
+          calculation tools and modern features.
+        </p>
+
+        <div class="buttons">
+
+          <a
+            class="btn"
+            href="https://github.com/tuleshwarsahu638-cpu"
+            target="_blank">
+            View on GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================================
+         CONTACT
+    ================================= -->
+
+    <section id="contact">
+
+      <h2 class="section-title">
+        Contact
+      </h2>
+
+      <div class="contact-box">
+
+        <p>
+          <strong>Name:</strong>
+          Tuleshwar Sahu
+        </p>
+
+        <p>
+          <strong>Location:</strong>
+          Bilaspur, Chhattisgarh, India
+        </p>
+
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:tuleshwarsahu638@gmail.com">
+            tuleshwarsahu638@gmail.com
+          </a>
+        </p>
+
+        <div class="buttons">
+
+          <a
+            class="btn btn-primary"
+            href="mailto:tuleshwarsahu638@gmail.com">
+            Send Email
+          </a>
+
+          <a
+            class="btn"
+            href="https://github.com/tuleshwarsahu638-cpu"
+            target="_blank">
+            GitHub Profile
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================================
+       FOOTER
+  ================================= -->
+
+  <footer>
+
+    <p>
+      © 2026 <strong>Tuleshwar Sahu</strong>
+    </p>
+
+    <p>
+      Learning • Building • Improving
+    </p>
+
+  </footer>
+
+
+  <!-- ================================
+       JAVASCRIPT
+       Name Click Effect
+  ================================= -->
+
+  <script>
+
+    const nameElement = document.getElementById("name");
+
+    nameElement.addEventListener("click", function(event) {
+
+      const rect = nameElement.getBoundingClientRect();
+
+      for (let i = 0; i < 25; i++) {
+
+        const particle = document.createElement("span");
+
+        particle.className = "particle";
+
+        particle.style.left =
+          (rect.left + Math.random() * rect.width) + "px";
+
+        particle.style.top =
+          (rect.bottom - 5) + "px";
+
+        particle.style.animationDuration =
+          (1 + Math.random() * 1.5) + "s";
+
+        document.body.appendChild(particle);
+
+        setTimeout(function() {
+          particle.remove();
+        }, 2500);
+
+      }
+
+    });
+
+  </script>
+
+</body>
+</html>
