@@ -1,0 +1,141 @@
+/* =====================================================
+   TULESHWAR SAHU — PROFILE INTERACTIONS
+   ===================================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  /* ---------- Current year ---------- */
+
+  const year = document.getElementById("year");
+
+  if (year) {
+    year.textContent = new Date().getFullYear();
+  }
+
+
+  /* ---------- Mobile menu ---------- */
+
+  const menuBtn = document.getElementById("menuBtn");
+  const mobileMenu = document.getElementById("mobileMenu");
+
+  if (menuBtn && mobileMenu) {
+
+    menuBtn.addEventListener("click", () => {
+
+      mobileMenu.classList.toggle("open");
+
+      menuBtn.textContent =
+        mobileMenu.classList.contains("open")
+          ? "✕"
+          : "☰";
+
+    });
+
+
+    /* Close menu after clicking link */
+
+    mobileMenu.querySelectorAll("a").forEach(link => {
+
+      link.addEventListener("click", () => {
+
+        mobileMenu.classList.remove("open");
+
+        menuBtn.textContent = "☰";
+
+      });
+
+    });
+
+  }
+
+
+  /* ---------- Scroll reveal ---------- */
+
+  const revealElements =
+    document.querySelectorAll(".reveal");
+
+  if ("IntersectionObserver" in window) {
+
+    const observer =
+      new IntersectionObserver(
+        entries => {
+
+          entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+              entry.target.classList.add("visible");
+
+              observer.unobserve(entry.target);
+
+            }
+
+          });
+
+        },
+        {
+          threshold: 0.12
+        }
+      );
+
+    revealElements.forEach(element => {
+      observer.observe(element);
+    });
+
+  } else {
+
+    revealElements.forEach(element => {
+      element.classList.add("visible");
+    });
+
+  }
+
+
+  /* ---------- Smooth navigation ---------- */
+
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+
+    link.addEventListener("click", event => {
+
+      const targetId =
+        link.getAttribute("href");
+
+      const target =
+        document.querySelector(targetId);
+
+      if (!target) return;
+
+      event.preventDefault();
+
+      target.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+
+    });
+
+  });
+
+
+  /* ---------- Small button feedback ---------- */
+
+  document
+    .querySelectorAll(".gold-btn, .dark-btn")
+    .forEach(button => {
+
+      button.addEventListener("click", () => {
+
+        button.style.transform =
+          "scale(0.97)";
+
+        setTimeout(() => {
+
+          button.style.transform = "";
+
+        }, 120);
+
+      });
+
+    });
+
+});
