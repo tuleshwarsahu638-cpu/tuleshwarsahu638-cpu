@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Tuleshwar Sahu - Computer & Technology Enthusiast, Developer and Digital Skills Learner from Bilaspur, Chhattisgarh.">
+
+  <meta name="keywords"
+        content="Tuleshwar Sahu, Computer, Technology, Developer, Python, C, C++, HTML, Microsoft, Tally ERP 9, Termux, GitHub">
+
+  <meta name="author" content="Tuleshwar Sahu">
+
+  <title>Tuleshwar Sahu | Portfolio</title>
+
+  <!-- IMPORTANT: GitHub Pages compatible relative paths -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- Golden particles -->
+  <div class="particles" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#home" class="nav-logo">TS</a>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#learning">Learning</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <button id="menuBtn" class="menu-btn" aria-label="Open menu">
+      ☰
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="mobile-menu">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#learning">Learning</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+
+    <div class="classic-badge">
+      ✦ CLASSIC DIGITAL PROFILE ✦
+    </div>
+
+    <div class="hero-avatar">
+      TS
+    </div>
+
+    <p class="hero-small">WELCOME TO MY DIGITAL SPACE</p>
+
+    <h1>
+      Tuleshwar <span>Sahu</span>
+    </h1>
+
+    <h2>
+      Computer & Technology Enthusiast
+      <br>
+      <span>Developer</span>
+    </h2>
+
+    <p class="hero-text">
+      Exploring technology, software, computer applications,
+      digital tools and practical projects.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#about" class="gold-btn">Explore Profile</a>
+
+      <a
+        href="https://github.com/tuleshwarsahu638-cpu"
+        target="_blank"
+        rel="noopener"
+        class="dark-btn">
+        GitHub
+      </a>
+    </div>
+
+  </header>
+
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+
+      <div class="section-title">
+        <span>01</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-card">
+
+        <p>
+          Hello, I am <strong>Tuleshwar Sahu</strong> from
+          Bilaspur, Chhattisgarh, India.
+        </p>
+
+        <p>
+          I am interested in computers, technology, software,
+          digital tools, practical projects and modern
+          technology-based solutions.
+        </p>
+
+        <div class="info-grid">
+
+          <div class="info-box">
+            <span>📍</span>
+            <div>
+              <small>Location</small>
+              <strong>Bilaspur, Chhattisgarh, India</strong>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <span>💻</span>
+            <div>
+              <small>Focus</small>
+              <strong>Computer & Technology</strong>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+
+      <div class="section-title">
+        <span>02</span>
+        <h2>Skills & Knowledge</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <article class="skill-card">
+          <div class="skill-icon">🪟</div>
+          <h3>Microsoft</h3>
+          <p>
+            Familiar with Microsoft computer applications
+            and common productivity tools.
+          </p>
+          <span class="level">Practical Knowledge</span>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🐍</div>
+          <h3>Python</h3>
+          <p>Basic programming knowledge.</p>
+          <span class="level">Basic</span>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">⚙️</div>
+          <h3>C / C++</h3>
+          <p>Basic programming knowledge.</p>
+          <span class="level">Basic</span>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>HTML</h3>
+          <p>Basic web page structure and development.</p>
+          <span class="level">Basic</span>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">📱</div>
+          <h3>Termux</h3>
+          <p>
+            Familiar with using Termux for practical
+            computer and development tasks.
+          </p>
+          <span class="level">Familiar</span>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>Photo Editing</h3>
+          <p>
+            Familiar with photo editing and digital
+            creative tools.
+          </p>
+          <span class="level">Practical Knowledge</span>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">📊</div>
+          <h3>Digital & Marketing</h3>
+          <p>
+            Basic understanding of digital and marketing
+            related work.
+          </p>
+          <span class="level">Basic</span>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">🧮</div>
+          <h3>Calculator Project</h3>
+          <p>
+            Working on practical calculator and
+            technology projects.
+          </p>
+          <span class="level">Project Work</span>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- LEARNING -->
+    <section id="learning" class="section reveal">
+
+      <div class="section-title">
+        <span>03</span>
+        <h2>Currently Learning</h2>
+      </div>
+
+      <div class="learning-card">
+
+        <div class="learning-icon">📚</div>
+
+        <div>
+          <h3>Tally ERP 9</h3>
+
+          <p>
+            Currently learning Tally ERP 9 and developing
+            practical knowledge of accounting software.
+          </p>
+
+          <div class="progress">
+            <div class="progress-bar"></div>
+          </div>
+
+          <span class="learning-status">
+            Currently Learning
+          </span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section class="section reveal">
+
+      <div class="section-title">
+        <span>04</span>
+        <h2>Education & Background</h2>
+      </div>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div>
+            <h3>10th & 12th</h3>
+            <p>School education completed.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div>
+            <h3>DCA</h3>
+            <p>Computer-related education and skills.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+
+      <div class="section-title">
+        <span>05</span>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-card">
+
+        <div class="project-icon">🧮</div>
+
+        <div class="project-content">
+          <span class="project-label">Featured Project</span>
+
+          <h3>Calculator Project</h3>
+
+          <p>
+            A practical calculator project focused on
+            useful calculations, clean interface and
+            technology-based functionality.
+          </p>
+
+          <a
+            href="https://github.com/tuleshwarsahu638-cpu"
+            target="_blank"
+            rel="noopener">
+            View GitHub →
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section reveal">
+
+      <div class="section-title">
+        <span>06</span>
+        <h2>Contact & Links</h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <a
+          class="contact-card"
+          href="mailto:tuleshwarsahu638@gmail.com">
+          <span>✉️</span>
+          <small>Email</small>
+          <strong>tuleshwarsahu638@gmail.com</strong>
+        </a>
+
+        <a
+          class="contact-card"
+          href="https://github.com/tuleshwarsahu638-cpu"
+          target="_blank"
+          rel="noopener">
+          <span>◉</span>
+          <small>GitHub</small>
+          <strong>tuleshwarsahu638-cpu</strong>
+        </a>
+
+        <div class="contact-card">
+          <span>📍</span>
+          <small>Location</small>
+          <strong>Bilaspur, Chhattisgarh</strong>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="footer-logo">
+      TS
+    </div>
+
+    <h3>Tuleshwar Sahu</h3>
+
+    <p>
+      Computer & Technology Enthusiast | Developer
+    </p>
+
+    <div class="footer-line"></div>
+
+    <small>
+      © <span id="year"></span> Tuleshwar Sahu
+    </small>
+
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="./script.js"></script>
+
+</body>
+</html>
