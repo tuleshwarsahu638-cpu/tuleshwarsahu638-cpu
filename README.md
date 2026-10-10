@@ -16,3 +16,4 @@ Edit text and sections in index.html.
 Change colors, spacing, fonts and layout in style.css.
 Change mobile navigation and animation behavior in script.js.
 The site intentionally does not include phone number, date of birth, or home address.
+
