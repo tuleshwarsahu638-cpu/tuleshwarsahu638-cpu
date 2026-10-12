@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="#0b1020" />
-  <meta name="description" content="Tuleshwar Sahu — Computer and Technology Learner. Programming basics, projects, and computer applications." />
-  <title>Tuleshwar Sahu | Computer & Technology Learner</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="description" content="Tuleshwar Sahu — computer and technology learner building practical projects. Explore programming, computer applications, accounting skills and projects.">
+  <title>Tuleshwar Sahu | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -14,185 +14,96 @@
   <div class="ambient ambient-two" aria-hidden="true"></div>
 
   <header class="topbar">
-    <a class="brand" href="#home" aria-label="Tuleshwar Sahu home">
-      <span class="brand-mark">TS</span>
-      <span>Tuleshwar Sahu</span>
-    </a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <nav class="nav-links" id="navLinks">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#project">Project</a>
-      <a href="#education">Education</a>
-      <a href="#qualifications">Qualifications</a>
+    <a class="brand" href="#home" aria-label="Tuleshwar Sahu home"><span class="brand-mark">TS</span><span>Tuleshwar Sahu</span></a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-controls="navLinks" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
     </nav>
   </header>
 
   <main id="home">
     <section class="hero section-shell">
       <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="status-dot"></span> COMPUTER & TECHNOLOGY LEARNER</div>
+        <div class="eyebrow"><span class="status-dot"></span> COMPUTER &amp; TECHNOLOGY LEARNER</div>
         <h1>Hello, I'm <span class="gradient-text">Tuleshwar Sahu</span></h1>
-        <p class="hero-subtitle">Learning programming, exploring technology, and building practical projects.</p>
+        <p class="hero-subtitle">I enjoy learning computer skills, exploring programming, and building practical projects step by step.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#project">Explore My Project <span aria-hidden="true">↗</span></a>
+          <a class="button button-primary" href="#projects">Explore Projects <span aria-hidden="true">↗</span></a>
           <a class="button button-secondary" href="mailto:tuleshwarsahu628@gmail.com">Contact by Email</a>
         </div>
         <div class="quick-facts">
-          <div><span class="fact-number">01</span><span class="fact-label">Project</span></div>
-          <div><span class="fact-number">04</span><span class="fact-label">Programming / markup basics</span></div>
-          <div><span class="fact-number">2026</span><span class="fact-label">DCA & Tally completed</span></div>
+          <div><span class="fact-number">02</span><span class="fact-label">Completed projects</span></div>
+          <div><span class="fact-number">08</span><span class="fact-label">Listed tech skills</span></div>
+          <div><span class="fact-number">2026</span><span class="fact-label">DCA completed</span></div>
         </div>
       </div>
       <aside class="hero-card reveal" aria-label="Profile summary">
-        <div class="card-orbit orbit-a"></div>
-        <div class="card-orbit orbit-b"></div>
+        <div class="card-orbit orbit-a"></div><div class="card-orbit orbit-b"></div>
         <div class="avatar-placeholder" aria-hidden="true">TS</div>
         <div class="hero-card-label">PROFILE</div>
-        <h2>Curious mind.<br />Practical learning.</h2>
-        <p>Focused on improving computer skills through learning and hands-on projects.</p>
-        <div class="mini-tags"><span>Programming</span><span>Technology</span><span>Projects</span></div>
+        <h2>Curious mind.<br>Practical learning.</h2>
+        <p>Building my knowledge through computer applications, programming practice, and personal projects.</p>
+        <div class="mini-tags"><span>Programming</span><span>Computer Skills</span><span>Projects</span></div>
       </aside>
     </section>
 
     <section class="content-section section-shell" id="about">
-      <div class="section-heading reveal">
-        <span class="section-kicker">01 / INTRODUCTION</span>
-        <h2>About <span class="gradient-text">Me</span></h2>
-      </div>
-      <div class="about-panel reveal">
-        <div class="about-icon" aria-hidden="true">✦</div>
-        <p>I am a computer and technology learner interested in programming and practical projects. I like learning new technologies and building simple projects.</p>
-      </div>
+      <div class="section-heading reveal"><span class="section-kicker">01 / INTRODUCTION</span><h2>About <span class="gradient-text">Me</span></h2></div>
+      <div class="about-panel reveal"><div class="about-icon" aria-hidden="true">✦</div><p>I am a computer and technology learner interested in programming, computer applications, and practical software projects. I am continuing to improve my skills by learning and building things hands-on.</p></div>
     </section>
 
     <section class="content-section section-shell" id="skills">
-      <div class="section-heading reveal">
-        <span class="section-kicker">02 / WHAT I'M LEARNING</span>
-        <h2>Technical <span class="gradient-text">Skills</span></h2>
-      </div>
+      <div class="section-heading reveal"><span class="section-kicker">02 / TECHNICAL KNOWLEDGE</span><h2>Programming <span class="gradient-text">Skills</span></h2><p class="section-description">Technology logos are shown as small, separated badges for easy viewing on mobile and desktop.</p></div>
       <div class="skills-grid">
-        <article class="skill-card reveal">
-          <div class="skill-card-top"><span class="skill-icon">⌘</span><span class="skill-index">01</span></div>
-          <h3>Programming</h3>
-          <div class="skill-list"><span>Python <b>Basic</b></span><span>C <b>Basic</b></span><span>C++ <b>Basic</b></span></div>
-        </article>
-        <article class="skill-card reveal">
-          <div class="skill-card-top"><span class="skill-icon">&lt;/&gt;</span><span class="skill-index">02</span></div>
-          <h3>Web & Markup</h3>
-          <div class="skill-list"><span>HTML <b>Basic</b></span></div>
-        </article>
-        <article class="skill-card reveal">
-          <div class="skill-card-top"><span class="skill-icon">⌁</span><span class="skill-index">03</span></div>
-          <h3>Version Control</h3>
-          <div class="skill-list"><span>Git <b>Basic</b></span><span>GitHub <b>Basic</b></span></div>
-        </article>
-        <article class="skill-card reveal">
-          <div class="skill-card-top"><span class="skill-icon">▣</span><span class="skill-index">04</span></div>
-          <h3>Operating System & Terminal</h3>
-          <div class="skill-list"><span>Linux <b>Basic</b></span><span>Termux <b>Basic</b></span></div>
-        </article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-icon">⌘</span><span class="skill-index">01</span></div><h3>Programming &amp; Markup</h3><div class="tech-grid">
+          <div class="tech-item"><span class="tech-logo logo-html" aria-hidden="true">5</span><span>HTML</span></div>
+          <div class="tech-item"><span class="tech-logo logo-python" aria-hidden="true">Py</span><span>Python</span></div>
+          <div class="tech-item"><span class="tech-logo logo-c" aria-hidden="true">C</span><span>C</span></div>
+          <div class="tech-item"><span class="tech-logo logo-cpp" aria-hidden="true">C++</span><span>C++</span></div>
+        </div></article>
+        <article class="skill-card reveal"><div class="skill-card-top"><span class="skill-icon">⌁</span><span class="skill-index">02</span></div><h3>Developer Tools</h3><div class="tech-grid">
+          <div class="tech-item"><span class="tech-logo logo-git" aria-hidden="true">◆</span><span>Git</span></div>
+          <div class="tech-item"><span class="tech-logo logo-github" aria-hidden="true">GH</span><span>GitHub</span></div>
+          <div class="tech-item"><span class="tech-logo logo-linux" aria-hidden="true">Lx</span><span>Linux</span></div>
+          <div class="tech-item"><span class="tech-logo logo-termux" aria-hidden="true">$_</span><span>Termux</span></div>
+        </div></article>
       </div>
     </section>
 
-    <section class="content-section section-shell" id="project">
-      <div class="section-heading reveal">
-        <span class="section-kicker">03 / HANDS-ON WORK</span>
-        <h2>Featured <span class="gradient-text">Project</span></h2>
+    <section class="content-section section-shell" id="projects">
+      <div class="section-heading reveal"><span class="section-kicker">03 / HANDS-ON WORK</span><h2>My <span class="gradient-text">Projects</span></h2><p class="section-description">Completed work and future plans are kept separate.</p></div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-visual" aria-hidden="true"><div class="calculator-window"><div class="calc-top"><i></i><i></i><i></i><span>T CALCULATOR</span></div><div class="calc-screen">123 × 45<span>5,535</span></div><div class="calc-keys"><b>AC</b><b>±</b><b>%</b><b>÷</b><b>7</b><b>8</b><b>9</b><b>×</b><b>4</b><b>5</b><b>6</b><b>−</b><b>1</b><b>2</b><b>3</b><b>+</b><b class="wide">0</b><b>.</b><b>=</b></div></div></div><div class="project-details"><span class="project-status status-complete">✓ COMPLETED PROJECT</span><h3>T Calculator</h3><p>A calculator application project focused on practical calculations and a clean, useful interface.</p><div class="project-tags"><span>Calculator</span><span>Application</span><span>Personal Project</span></div></div></article>
+        <article class="project-card reveal"><div class="project-visual ai-visual" aria-hidden="true"><div class="ai-symbol">T<span>AI</span></div><div class="ai-lines"><i></i><i></i><i></i></div></div><div class="project-details"><span class="project-status status-complete">✓ COMPLETED PROJECT</span><h3>TCalc AI</h3><p>A personal calculator and AI-focused project exploring helpful calculation and learning features.</p><div class="project-tags"><span>Calculator</span><span>AI Project</span><span>Learning</span></div></div></article>
       </div>
-      <article class="project-card reveal">
-        <div class="project-visual" aria-hidden="true">
-          <div class="calculator-window">
-            <div class="calc-top"><i></i><i></i><i></i><span>T CALCULATOR</span></div>
-            <div class="calc-screen">123 × 45<span>5,535</span></div>
-            <div class="calc-keys"><b>AC</b><b>±</b><b>%</b><b>÷</b><b>7</b><b>8</b><b>9</b><b>×</b><b>4</b><b>5</b><b>6</b><b>−</b><b>1</b><b>2</b><b>3</b><b>+</b><b class="wide">0</b><b>.</b><b>=</b></div>
-          </div>
-        </div>
-        <div class="project-details">
-          <div class="project-label">PERSONAL PROJECT</div>
-          <h3>T Calculator <span>/ TCalc AI</span></h3>
-          <p>A personal calculator project developed to explore practical software and computer-based applications.</p>
-          <h4>Project areas</h4>
-          <ul class="project-points">
-            <li>Calculator application</li>
-            <li>Programming and computer concepts</li>
-            <li>AI-based features</li>
-            <li>Android / Termux environment</li>
-            <li>Project development and testing</li>
-          </ul>
-          <div class="project-note">A learning project — technologies and features may evolve as development continues.</div>
-        </div>
-      </article>
+      <div class="upcoming-card reveal"><div class="upcoming-mark" aria-hidden="true">↗</div><div><span class="project-status status-planned">PLANNED / UPCOMING</span><h3>Accounting AI</h3><p>A future project idea focused on accounting, commerce concepts, and Tally-related learning. It is planned and is not presented as completed.</p></div></div>
     </section>
 
     <section class="content-section section-shell" id="education">
-      <div class="section-heading reveal">
-        <span class="section-kicker">04 / ACADEMIC BACKGROUND</span>
-        <h2>My <span class="gradient-text">Education</span></h2>
-      </div>
+      <div class="section-heading reveal"><span class="section-kicker">04 / ACADEMIC BACKGROUND</span><h2>My <span class="gradient-text">Education</span></h2></div>
       <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-label">2026</span><h3>DCA Completed</h3><p>Atal Bihari Vajpayee Vishwavidyalaya (ABVV)</p></div></article>
         <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-label">2025</span><h3>12th Pass — Commerce</h3><p>Chhattisgarh Board of Secondary Education (CGBSE)</p></div></article>
         <article class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-card"><span class="timeline-label">2023</span><h3>10th Pass</h3><p>Chhattisgarh Board of Secondary Education (CGBSE)</p></div></article>
       </div>
     </section>
 
     <section class="content-section section-shell" id="qualifications">
-      <div class="section-heading reveal">
-        <span class="section-kicker">05 / ADDITIONAL KNOWLEDGE</span>
-        <h2>Qualifications & <span class="gradient-text">Skills</span></h2>
-      </div>
+      <div class="section-heading reveal"><span class="section-kicker">05 / ADDITIONAL KNOWLEDGE</span><h2>Computer &amp; Accounting <span class="gradient-text">Skills</span></h2></div>
       <div class="qualification-grid">
-        <article class="qualification-card reveal">
-          <div class="qual-icon">₹</div><h3>Accounting & Tally</h3>
-          <div class="qual-row"><span>Tally ERP 9</span><b>Skilled</b></div>
-          <div class="qual-row"><span>Accounting</span><b>Skilled</b></div>
-          <div class="qual-row"><span>GST & TDS</span><b>Skilled</b></div>
-          <div class="qual-row"><span>TallyPrime</span><em>Currently learning</em></div>
-        </article>
-        <article class="qualification-card reveal">
-          <div class="qual-icon">▤</div><h3>Computer Applications</h3>
-          <div class="qual-row"><span>DCA</span><b>Skilled</b></div>
-          <div class="qual-row"><span>MS Word</span><b>Skilled</b></div>
-          <div class="qual-row"><span>MS Excel</span><b>Skilled</b></div>
-          <div class="qual-row"><span>MS PowerPoint</span><b>Skilled</b></div>
-          <div class="qual-row"><span>Other MS Office apps</span><b>Skilled</b></div>
-        </article>
+        <article class="qualification-card reveal"><div class="qual-icon">₹</div><h3>Accounting &amp; Tally</h3><div class="qual-row"><span>Tally ERP 9</span><b>Skilled</b></div><div class="qual-row"><span>GST</span><b>Skilled</b></div><div class="qual-row"><span>TDS</span><b>Skilled</b></div><div class="qual-row"><span>Accounting</span><b>Knowledge</b></div><div class="qual-row"><span>TallyPrime</span><em>Currently learning</em></div></article>
+        <article class="qualification-card reveal"><div class="qual-icon">▤</div><h3>Computer Applications</h3><div class="qual-row"><span>DCA</span><b>Completed</b></div><div class="qual-row"><span>Microsoft Office</span><b>Skilled</b></div><div class="qual-row"><span>MS Word, Excel &amp; PowerPoint</span><b>Skilled</b></div><div class="qual-row"><span>Microsoft Office tools</span><b>Familiar</b></div></article>
       </div>
     </section>
 
     <section class="content-section section-shell" id="additional">
-      <div class="section-heading reveal">
-        <span class="section-kicker">06 / OTHER TOOLS</span>
-        <h2>Additional <span class="gradient-text">Skills</span></h2>
-      </div>
-      <div class="tool-chips reveal">
-        <span>PageMaker <b>Basic</b></span><span>Photo Editing <b>Basic</b></span><span>CorelDRAW <b>Basic</b></span><span>Graphic Designing <b>Basic</b></span>
-      </div>
+      <div class="section-heading reveal"><span class="section-kicker">06 / OTHER TOOLS</span><h2>Additional <span class="gradient-text">Skills</span></h2></div>
+      <div class="tool-chips reveal"><span>PageMaker</span><span>Photo Editing</span><span>CorelDRAW</span><span>Graphic Designing</span></div>
     </section>
 
-    <section class="content-section section-shell" id="interests">
-      <div class="section-heading reveal">
-        <span class="section-kicker">07 / WHAT INSPIRES ME</span>
-        <h2>Areas of <span class="gradient-text">Interest</span></h2>
-      </div>
-      <div class="interest-grid reveal"><span>⌘ <b>Programming</b></span><span>▧ <b>Software Projects</b></span><span>◈ <b>Computer Technology</b></span><span>✧ <b>AI</b></span><span>〈/〉 <b>Web Technology</b></span></div>
-    </section>
-
-    <section class="contact-section section-shell reveal">
-      <span class="section-kicker">LET'S CONNECT</span>
-      <h2>Learning one project<br />at a time.</h2>
-      <p>For contact or collaboration, reach me by email or visit my GitHub profile.</p>
-      <div class="hero-actions centered">
-        <a class="button button-primary" href="mailto:tuleshwarsahu628@gmail.com">tuleshwarsahu628@gmail.com ↗</a>
-        <a class="button button-secondary" href="https://github.com/tuleshwarsahu638-cpu" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
-      </div>
-    </section>
+    <section class="contact-section section-shell reveal" id="contact"><span class="section-kicker">LET'S CONNECT</span><h2>Learning one project<br>at a time.</h2><p>For contact or collaboration, reach me by email or visit my GitHub profile.</p><div class="hero-actions centered"><a class="button button-primary" href="mailto:tuleshwarsahu628@gmail.com">tuleshwarsahu628@gmail.com ↗</a><a class="button button-secondary" href="https://github.com/tuleshwarsahu638-cpu" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a></div></section>
   </main>
 
-  <footer class="footer">
-    <span>© <span id="year"></span> Tuleshwar Sahu</span>
-    <span>Built with HTML, CSS & JavaScript</span>
-    <a href="#home">Back to top ↑</a>
-  </footer>
+  <footer class="footer"><span>© <span id="year">2026</span> Tuleshwar Sahu</span><span>Made with care · Dark + Gold Portfolio</span><a href="#home">Back to top ↑</a></footer>
 </body>
 </html>
